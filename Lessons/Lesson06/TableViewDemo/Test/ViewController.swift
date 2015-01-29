@@ -29,7 +29,8 @@ class ViewController: UITableViewController, UITableViewDataSource, UITableViewD
     }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        
+        var temp: Int
+        temp = 100
     }
 }
 

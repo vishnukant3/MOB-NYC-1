@@ -39,6 +39,24 @@
             </objects>
             <point key="canvasLocation" x="683" y="216"/>
         </scene>
+        <!--secondView-->
+        <scene sceneID="ZV6-Yj-f2K">
+            <objects>
+                <viewController title="secondView" id="TgL-l6-hMZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="df1-mq-K8G"/>
+                        <viewControllerLayoutGuide type="bottom" id="cAO-DI-oXb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1h8-Qf-YBX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.20601244630000001" green="0.38764064780000002" blue="0.75" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B2e-5c-yR5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1391" y="221"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="fyt-zt-NQr">
             <objects>
