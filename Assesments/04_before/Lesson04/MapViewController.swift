@@ -8,26 +8,7 @@
 
 import UIKit
 
-class MapViewController: UIViewController, UITextFieldDelegate  {
-
-    
-    @IBOutlet weak var keyText: UITextField!
-    
-    @IBOutlet weak var value: UITextField!
-    
-    func textFieldShouldReturn(textField: UITextField) -> Bool {
-        if (countElements(keyText.text) != 0)  {
-            //println("kkk")
-            println(keyText.text)
-        }
-        if (countElements(value.text) != 0) {
-            println(value.text)
-        }
-        
-       // println(textField.text)
-        return true
-    }
-    
+class MapViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
