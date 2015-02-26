@@ -13,15 +13,6 @@ class ViewController: UIViewController, UITableViewDataSource, UIAlertViewDelega
 
     var items: [String] = []
     var key: String = "name"
-    
-    var fileName: String = "myFile"
-    
-    var  filepath: String {
-        if let docsPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as? NSString {
-            return docsPath.stringByAppendingPathComponent("myFile")
-        }
-        return ""
-    }
 
     
     @IBAction func didTapAdd(sender: AnyObject) {
@@ -35,23 +26,20 @@ class ViewController: UIViewController, UITableViewDataSource, UIAlertViewDelega
             if let textInAlert = alertView.textFieldAtIndex(0)?.text {
                // NSDictionary(contentsOfFile: <#String#>)
                 self.items.append(textInAlert)
-                
-                // For NSDictionary type code
-                //var dictItem = ["item1": textInAlert]
-                //(dictItem as NSDictionary).writeToFile(filepath, atomically: true)
-                
-                
-                
-                (items as NSArray).writeToFile(filepath, atomically: true)
-                let arrayFromFile = NSArray(contentsOfFile: filepath)
-                println(arrayFromFile)
-                //self.items.append(textInAlert)
                 self.tableView.reloadData()
             }
         }
     }
     
     
+    var fileName: String = "myFile"
+    
+    var  filepath: String {
+        if let docsPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as? NSString {
+            return docsPath.stringByAppendingPathComponent("myFile")
+        }
+        return ""
+    }
     
     
     @IBOutlet weak var tableView: UITableView!
