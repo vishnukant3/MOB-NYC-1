@@ -3,13 +3,26 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
+<<<<<<< HEAD
          documentLocation = "#CharacterRangeLen=0&amp;CharacterRangeLoc=517&amp;EndingColumnNumber=13&amp;EndingLineNumber=21&amp;StartingColumnNumber=9&amp;StartingLineNumber=20&amp;Timestamp=446602896.115177">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
          documentLocation = "#CharacterRangeLen=0&amp;CharacterRangeLoc=517&amp;EndingColumnNumber=9&amp;EndingLineNumber=26&amp;StartingColumnNumber=5&amp;StartingLineNumber=26&amp;Timestamp=446602896.115177">
+=======
+         documentLocation = "#CharacterRangeLen=0&amp;CharacterRangeLoc=507&amp;EndingColumnNumber=13&amp;EndingLineNumber=21&amp;StartingColumnNumber=9&amp;StartingLineNumber=20&amp;Timestamp=446603140.767847">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=0&amp;CharacterRangeLoc=507&amp;EndingColumnNumber=9&amp;EndingLineNumber=26&amp;StartingColumnNumber=5&amp;StartingLineNumber=26&amp;Timestamp=446603140.767847">
+>>>>>>> 3539bdcf8eac4b5931bc09c2f0d7b61c0f06e58e
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
          documentLocation = "#CharacterRangeLen=4&amp;CharacterRangeLoc=253&amp;EndingColumnNumber=13&amp;EndingLineNumber=11&amp;StartingColumnNumber=9&amp;StartingLineNumber=11&amp;Timestamp=446602896.115177">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=13&amp;CharacterRangeLoc=368&amp;EndingColumnNumber=22&amp;EndingLineNumber=12&amp;StartingColumnNumber=9&amp;StartingLineNumber=12&amp;Timestamp=446602973.913352">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=6&amp;CharacterRangeLoc=394&amp;EndingColumnNumber=19&amp;EndingLineNumber=13&amp;StartingColumnNumber=13&amp;StartingLineNumber=13&amp;Timestamp=446603140.767847">
       </LoggerValueHistoryTimelineItem>
    </TimelineItems>
 </Timeline>
