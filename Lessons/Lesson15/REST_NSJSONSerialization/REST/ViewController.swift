@@ -21,11 +21,7 @@ class ViewController: UITableViewController, UITableViewDataSource, UITableViewD
             let task = NSURLSession.sharedSession().dataTaskWithURL(url, completionHandler: { (data, response, error) -> Void in
                 var jsonError: NSError?
                 if let jsonDict = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.allZeros, error: &jsonError) as? NSDictionary {
-                    if let self.json = jsonDict  {
-                       if let arr = self.json["new"] as? NSArray {
-                        println(arr)
-                      }
-                    }
+                    self.json = jsonDict                      
                       //println(self.json)
                     
                     // Required! We must update the UI only on the main queue, but this completion handler gets run in the background queue!
